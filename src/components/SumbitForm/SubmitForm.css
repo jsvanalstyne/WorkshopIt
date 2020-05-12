@@ -1,0 +1,26 @@
+.writingSubmission{
+    margin-top: 100px;
+    margin-left: 80px;
+    /* display: flex;
+    justify-content: center; */
+}
+.inputSubmission{
+    height:200px;
+    width: 50%;
+    border: 4px solid black;
+   
+}
+.writingSubmit{
+    height:40px;
+    width: 100px;
+    background: #637081;
+    color: #CEE5F2;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.writingSubmit:hover{
+    color: #7C98B3;
+}

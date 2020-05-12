@@ -1,0 +1,75 @@
+.home {
+    text-align: center;
+    background-color: white;
+    color: #CEE5F2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .Card {
+    background-color: #5E55AC;
+    color: #CEE5F2;
+    padding: 32px;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+  }
+  .contactForm{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-direction: column;
+  }
+  .contactMessage{
+    height: 100%;
+    width: 100%;
+  }
+  .contactSubmit{
+      margin-bottom: 32px;
+      color: #CEE5F2;
+      height: 30%;
+      font-size: large;
+      width:100%;
+      justify-content: center;
+  }
+  textarea{
+    position: absolute;
+  }
+  .contactCard {
+    background-color: #5E55AC;
+    color: #CEE5F2;
+    padding: 32px;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+  }
+  .documentContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 250px; */
+    justify-content: center;
+  }
+  .documentHeader{
+    margin-top:100px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+  }
+  .reviewForm{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
