@@ -7,7 +7,7 @@ import Backdrop from "../components/BackDrop/BackDrop";
 import Footer from "../components/Footer/Footer";
 import "./home.css";
 import DocumentDisplayCard from "../components/DocumentDisplayCard/DocumentDisplayCard";
-// import API from "../utils/API";
+import API from "../utils/API";
 
 
 
@@ -19,44 +19,46 @@ class Document extends Component {
         state ={
             sideDrawerOpen: false,
             documentArray : [
-              {
-                title: "Document1",
-                date: "May 1, 2020"
-              },
-              {
-                title: "Document2",
-                date: "May 2, 2020"
-              },
-              {
-                title: "Document3",
-                date: "May 3, 2020"
-              },
-              {
-                title: "Document4",
-                date: "May 1, 2020"
-              },
-              {
-                title: "Document5",
-                date: "May 1, 2020"
-              },
-              {
-                title: "Document6",
-                date: "May 1, 2020"
-              }
+              // {
+              //   title: "Document1",
+              //   date: "May 1, 2020"
+              // },
+              // {
+              //   title: "Document2",
+              //   date: "May 2, 2020"
+              // },
+              // {
+              //   title: "Document3",
+              //   date: "May 3, 2020"
+              // },
+              // {
+              //   title: "Document4",
+              //   date: "May 1, 2020"
+              // },
+              // {
+              //   title: "Document5",
+              //   date: "May 1, 2020"
+              // },
+              // {
+              //   title: "Document6",
+              //   date: "May 1, 2020"
+              // }
 
             
             ]
           };
-          // componentDidMount = () =>{
-          //   this.getAllDocuments();
-          // }
-          // getAllDocuments = () => {
-          //   API.getAllDocuments()
-          //     .then(res =>{
-          //       this.setState({documentArray : res.data})
-          //     })
+          componentDidMount = () =>{
+            this.getAllDocuments();
+          }
+          getAllDocuments = () => {
+            API.getAllDocuments()
+              .then(res =>{
+                console.log(res);
+                console.log(res.data);
+                // this.setState({documentArray : res.data})
+              })
             
-          // }
+          }
           drawerToggleClickHandler = () => {
             this.setState((prevState)=> {
               return {sideDrawerOpen: !prevState.sideDrawerOpen}

@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Route exact path="/" component={Main}/>
-      <Route exact path="/home" component={Home}/>
+      <Route exact path="/upload" component={Home}/>
       <Route exact path="/document" component={Document}/>
       <Route exact path="/review" component={Review}/>
       <Route exact path="/contact" component={Contact}/>
