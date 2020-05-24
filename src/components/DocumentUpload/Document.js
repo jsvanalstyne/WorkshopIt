@@ -120,7 +120,7 @@ class Document extends Component {
     render() {
         return (
           <div className="Upload">
-            <span className="Title">Upload Files</span>
+            {/* <span className="Title">Upload Files</span> */}
             <div className="Content">
               <div>
                 <Dropzone

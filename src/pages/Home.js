@@ -44,7 +44,20 @@ class Home extends Component {
              <div className="home">
              
                <div className="Card">
-               <Document/>
+                 <form>
+                 <span className="Title">Upload Files</span>
+                   <label className="documentInformation">
+                     Title:
+                     <input type="text" name="title"/>
+                   </label>
+                   {/* <label>
+                     Text:
+                     <input type="text" name="text"/>
+                   </label> */}
+                   <Document/>
+                   <input type="submit" value="Submit"/>
+                 </form>
+              
                </div>
              </div>
              

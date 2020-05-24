@@ -3,6 +3,7 @@
     background-color: white;
     color: #CEE5F2;
     min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +15,8 @@
     background-color: #5E55AC;
     color: #CEE5F2;
     padding: 32px;
-    width: 50%;
+    width: 70%;
+    height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -72,4 +74,9 @@
     margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
+  }
+  .documentInformation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
